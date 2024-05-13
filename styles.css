@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.cajaRoja {
+    background-color: red;
+    height: 50px;
+}
+
+.cajaVerde {
+    background-color: greenyellow;
+    height: 700px;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.cajaAzul {
+    background-color: aqua;
+    height: 700px;
+}
+
+.cajaAmarilla {
+    background-color: yellow;
+    height: 700px;
+}
+@media (min-width: 150px) and (max-width: 768px)
+
+{
+
+.cajaAzul {
+
+display: none;
+
+}
+
+}
